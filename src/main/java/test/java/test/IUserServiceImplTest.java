@@ -1,4 +1,4 @@
-package test.java.service;
+package test.java.test;
 
 import ch.efg.sample.api.implementation.IUserImpl;
 import ch.efg.sample.api.implementation.IUserServiceImpl;
