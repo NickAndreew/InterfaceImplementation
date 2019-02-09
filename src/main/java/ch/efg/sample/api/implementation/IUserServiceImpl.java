@@ -53,12 +53,12 @@ public class IUserServiceImpl implements IUserService {
 
     @Override
     public List saveAll(Iterable newUsers) {
+        List<IUserImpl> users = new ArrayList<>();
         newUsers.forEach(iUser -> {
-            if(iUser.getClass()==IUserImpl.class){
-                this.users.add((IUserImpl) iUser);
-            }
+            this.save(iUser);
+            users.add((IUserImpl) iUser);
         });
-        return this.users;
+        return users;
     }
 
     @Override

@@ -5,7 +5,13 @@ import ch.efg.sample.api.implementation.IUserServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.HashMap;
 
 import static org.junit.Assert.assertEquals;
 
@@ -65,7 +71,6 @@ public class IUserServiceImplTest {
         usersToSave.add(new IUserImpl("7", "4", "Name6"));
 
         List<IUserImpl> usersInDb = new ArrayList<>();
-        usersInDb = service.findAll();
 
         usersInDb.add(new IUserImpl("6", "4", "Name5"));
         usersInDb.add(new IUserImpl("7", "4", "Name6"));
