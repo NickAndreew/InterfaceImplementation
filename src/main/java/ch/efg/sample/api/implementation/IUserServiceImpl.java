@@ -23,7 +23,6 @@ public class IUserServiceImpl implements IUserService {
         this.users = list;
     }
 
-    @Override
     public List<IUserImpl> findAll() {
         if(users.size()>0) {
             return this.users.stream().collect(Collectors.toList());
@@ -31,7 +30,6 @@ public class IUserServiceImpl implements IUserService {
         return new ArrayList<>();
     }
 
-    @Override
     public List<IUserImpl> findById(String id){
         List<IUserImpl> usersById = new ArrayList<>();
         if(users.size()>0) {
@@ -61,7 +59,6 @@ public class IUserServiceImpl implements IUserService {
         return users;
     }
 
-    @Override
     public IUserImpl delete(String id) {
         IUserImpl user;
         user = this.users
@@ -79,10 +76,6 @@ public class IUserServiceImpl implements IUserService {
         }
     }
 
-    /**
-     * @return {@code Map} of users by groupId
-     */
-    @Override
     public Map<String, List<IUserImpl>> findAllGroupByGroupId(){
         Map<String, List<IUserImpl>> userAllUsersByGroupIdMap = new HashMap<>();
         Set<String> groupsSet = new HashSet<>();
