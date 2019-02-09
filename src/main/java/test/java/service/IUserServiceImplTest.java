@@ -1,5 +1,7 @@
-package ch.efg.sample.api.implementation;
+package test.java.service;
 
+import ch.efg.sample.api.implementation.IUserImpl;
+import ch.efg.sample.api.implementation.IUserServiceImpl;
 import org.junit.Before;
 import org.junit.Test;
 
