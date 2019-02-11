@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a55500db-0dad-47be-a7f3-818b6ea8de49" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/efg/sample/api/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ciklum/com/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/efg/sample/api/implementation/IUserImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ciklum/com/impl/IUserImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/efg/sample/api/implementation/IUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ciklum/com/impl/IUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/efg/sample/api/interfaces/IUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ciklum/com/src/IUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ch/efg/sample/api/interfaces/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ciklum/com/src/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/test/java/test/IUserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/IUserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/efg/sample/api/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/efg/sample/api/implementation/IUserImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/efg/sample/api/implementation/IUserServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/efg/sample/api/interfaces/IUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ch/efg/sample/api/interfaces/IUserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/test/IUserServiceImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -71,9 +57,10 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -93,26 +80,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/impl/IUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="-125">
               <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/IUserServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+            <state relative-caret-position="119">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1208#1209#0" expanded="true" />
-                <element signature="e#1308#1309#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/impl/IUserImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -228,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -235,35 +219,16 @@
               <item name="sample" type="b2602c69:ProjectViewProjectNode" />
               <item name="test-assignment" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sample" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test-assignment" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549832783532" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549868245714" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Groovy JUnit" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -280,9 +245,9 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src\test\java" />
-      <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src" />
       <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src\main" />
+      <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src" />
+      <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src\test\java" />
       <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src\main\java\ciklum" />
       <recent name="F:\Development\Projects\Interview Test\Ciklum\test-assignment\src\main\java\test" />
     </key>
@@ -434,9 +399,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2193646" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22239032" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -556,14 +520,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/IUserServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="95" column="1" lean-forward="true" selection-start-line="95" selection-start-column="1" selection-end-line="95" selection-end-column="1" />
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1208#1209#0" expanded="true" />
-            <element signature="e#1308#1309#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -571,7 +533,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/impl/IUserImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -580,20 +542,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/impl/IUserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="-125">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ciklum/com/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/IUserServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        <state relative-caret-position="119">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
