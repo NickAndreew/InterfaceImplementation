@@ -15,10 +15,5 @@ public class Main {
         service.save(new IUserImpl("4", "4", "Name3"));
 
         System.out.println(service.findAll());
-
-        /*
-            Feel free to edit the main() method for testing
-            Please don't forget to checkout the IUserServiceImplTest.java
-         */
     }
 }
