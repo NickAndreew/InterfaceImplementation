@@ -1,4 +1,4 @@
-package test;
+package ciklum.com;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -28,7 +28,8 @@ public class IUserServiceImplTest {
         users.add(new IUserImpl("3", "1", "Name2"));
         users.add(new IUserImpl("4", "4", "Name3"));
 
-        service = new IUserServiceImpl(users);
+        service = new IUserServiceImpl();
+        users.forEach(user -> service.save(user));
     }
 
     @Test
